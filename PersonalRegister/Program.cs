@@ -24,6 +24,7 @@ namespace PersonalRegister
                 var name = Console.ReadLine();
 
                 while (string.IsNullOrEmpty(name))
+                    //det här är ett test
                 {
                     Console.WriteLine("Name can't be empty! Input the employees name once more");
                     name = Console.ReadLine();
